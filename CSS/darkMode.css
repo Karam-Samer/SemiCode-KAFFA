@@ -1,8 +1,8 @@
 :root {
-    --bg-dark: rgba(24, 26, 55, 0.9);      
-    --text-dark: rgb(173, 189, 255);       
+    --bg-dark: rgba(24, 26, 55, 0.9);
+    --text-dark: rgb(173, 189, 255);
     --hover-dark: rgba(120, 150, 255, 0.8);
-    --text2-dark: rgb(255, 180, 150);     
+    --text2-dark: rgb(255, 180, 150);
 }
 
 html:has(#checkDefault:checked),
@@ -22,11 +22,16 @@ html:has(#checkDefaultMobile:checked) {
         border-color: var(--text-dark) !important;
     }
 
-    #About, #Menu {
+    #About,
+    #Menu {
         background-color: var(--bg-dark) !important;
     }
 
-    #About p, #About h2, #About h3, #About a, #About span {
+    #About p,
+    #About h2,
+    #About h3,
+    #About a,
+    #About span {
         color: var(--text-dark) !important;
     }
 
@@ -47,7 +52,9 @@ html:has(#checkDefaultMobile:checked) {
         background-color: var(--text-dark) !important;
     }
 
-    #Services h2, #Services h3, #Services p {
+    #Services h2,
+    #Services h3,
+    #Services p {
         color: var(--text2-dark) !important;
     }
 
@@ -55,11 +62,15 @@ html:has(#checkDefaultMobile:checked) {
         color: var(--text-dark) !important;
     }
 
-    #Menu h2, #Menu h6, #Menu p, #Menu button {
+    #Menu h2,
+    #Menu h6,
+    #Menu p,
+    #Menu button {
         color: var(--text-dark) !important;
     }
 
-    #Menu h6, #Menu p,
+    #Menu h6,
+    #Menu p,
     #Menu .nav-tabs .nav-link.active,
     #Menu .nav-tabs .nav-link:hover {
         background-color: var(--hover-dark) !important;
@@ -75,8 +86,14 @@ html:has(#checkDefaultMobile:checked) {
         color: var(--text2-dark) !important;
     }
 
-    #Book h2, #Book h3, #Book button {
+    #Book h2,
+    #Book h3,
+    #Book button {
         color: var(--text2-dark) !important;
+    }
+
+    #Book form {
+        background-color: var(--bg-dark) !important;
     }
 
     footer p {
